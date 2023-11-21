@@ -7,6 +7,8 @@
     "start:types": "tsc basics/types.ts --outDir dist/ && node dist/types.js",
     "start:enums": "tsc basics/enums.ts --outDir dist/ && node dist/enums.js",
     "start:interfaces": "tsc basics/interfaces.ts --outDir dist/ && node dist/interfaces.js",
+    "start:cutsomTypes": "tsc basics/cutsomTypes.ts --outDir dist/ && node dist/cutsomTypes.js",
+    "start:clases": "tsc basics/clases.ts --outDir dist/ && node dist/clases.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
   ,
