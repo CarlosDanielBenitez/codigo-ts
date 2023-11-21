@@ -1,0 +1,15 @@
+{
+  "name": "codigo-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:types": "tsc basics/types.ts --outDir dist/ && node dist/types.js",
+    "start:enums": "tsc basics/enums.ts --outDir dist/ && node dist/enums.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+  ,
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
